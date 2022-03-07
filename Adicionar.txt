@@ -1,3 +1,22 @@
+TRAJETÓRIA
+
+// Additional Activity
+    if (this.body.velocity.x > 0 && pos.x > 10) {
+      var position = [pos.x, pos.y];
+      this.trajectory.push(position);
+    }
+
+    for (var i = 0; i < this.trajectory.length; i++) {
+      image(this.image, this.trajectory[i][0], this.trajectory[i][1], 5, 5);
+    }
+
+
+
+
+
+
+
+
 aDICIONAR EM index ( após "<script src="./lib/matter.js"></script>")
 
 
